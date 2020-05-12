@@ -28,10 +28,10 @@ const arr1 = arr.map(bitBatBotOrNot);
 var arr2 = arr.map(function (x, i) {
   return `${x}: ${arr1[i]}`;
   });
-  return arr2; // Finally returning the finally array .
+  return arr2; 
 };
 
-//Req. D
+//Req. D  might be wrong
 let findAllbitBatBotOrNots2 = (arr) => {
 let arr1 = [];
 for(var each in arr) {
